@@ -18,3 +18,6 @@
 //
 //= require bootstrap-sprockets
 //
+//= require bootstrap/dropdown
+//= require bootstrap/alert
+//
