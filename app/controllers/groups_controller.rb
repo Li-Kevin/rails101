@@ -1,7 +1,4 @@
 class GroupsController < ApplicationController
-	
-	before_action :authenticate_user!  
-
 	def index
 		flash[:notice] = "Hi, welcome back!"		
 		@groups = Group.all
