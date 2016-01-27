@@ -4,7 +4,7 @@ class PostsController < ApplicationController
 	
 	before_action :find_group
 
-	before_action :member_required, only [:new, :create]
+	before_action :member_required, only: [:new, :create]
 
 	def new
 		@post = @group.posts.new 
